@@ -4,8 +4,28 @@
   box-sizing: border-box;
 }
 
+.home {
+  height: 100%;
+  padding-top: 40vh;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url(../img/model-1.jpg) top center;
+  background-size: cover;
+}
+.home-name {
+  font-size: 3.7rem;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+  border-bottom: 2px solid #fff;
+}
+.home-name-last {
+  color: #ff652f;
+  font-weight: 700;
+}
+
 body {
-  background: #272727;
+  background: rgba(39, 39, 39, 0.1529411765);
   color: #fff;
   height: 100vh;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -26,6 +46,33 @@ a {
 header {
   position: fixed;
   z-index: 2;
-  width: 100px;
+  width: 100%;
   padding: 1rem;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+}
+main .social-icons {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+}
+main .social-icons a {
+  padding: 0.4rem;
+  transition: all 0.5s ease-in-out;
+}
+main .social-icons a:hover {
+  color: #ff652f;
+}
+
+footer {
+  font-size: 1rem;
+  position: fixed;
+  bottom: 0.4rem;
+  right: 1rem;
+  text-align: right;
+  padding: 1rem;
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */
